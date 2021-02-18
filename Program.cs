@@ -7,8 +7,14 @@ namespace HappyBirthday
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Happy Birthday Ajanta!!!");
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Green;
+            for (int i = 0; i < 10; i++)
+            {
+            Console.WriteLine("Happy Birthday Ajanta!!!");
+            }
             Grasshoper();
+            Console.ForegroundColor = ConsoleColor.Gray;
         }
 
         private static void Grasshoper()
